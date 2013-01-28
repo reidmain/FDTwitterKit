@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		270B83DE16CAE9F500A31268 /* FDTwitterLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 270B83DD16CAE9F500A31268 /* FDTwitterLoginView.xib */; };
+		271BD62516B629320063F92F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 271BD62416B629320063F92F /* Foundation.framework */; };
+		271BD62716B629320063F92F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 271BD62616B629320063F92F /* CoreGraphics.framework */; };
+		271BD62916B629320063F92F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 271BD62816B629320063F92F /* QuartzCore.framework */; };
+		271BD62B16B629320063F92F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 271BD62A16B629320063F92F /* UIKit.framework */; };
+		271BD63116B629320063F92F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 271BD63016B629320063F92F /* main.m */; };
+		271BD63716B629320063F92F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 271BD63616B629320063F92F /* AppDelegate.m */; };
+		271BD63A16B629320063F92F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 271BD63916B629320063F92F /* InfoPlist.strings */; };
+		271BD63D16B629320063F92F /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 271BD63C16B629320063F92F /* iTunesArtwork */; };
+		271BD63F16B629320063F92F /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 271BD63E16B629320063F92F /* iTunesArtwork@2x */; };
+		271BD64F16B629320063F92F /* icon_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 271BD64E16B629320063F92F /* icon_iphone.png */; };
+		271BD65116B629320063F92F /* icon_iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 271BD65016B629320063F92F /* icon_iphone@2x.png */; };
+		271BD65316B629320063F92F /* icon_iphone_spotlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 271BD65216B629320063F92F /* icon_iphone_spotlight.png */; };
+		271BD65516B629320063F92F /* icon_iphone_spotlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 271BD65416B629320063F92F /* icon_iphone_spotlight@2x.png */; };
+		271BD65716B629320063F92F /* launch_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 271BD65616B629320063F92F /* launch_iphone.png */; };
+		271BD65916B629320063F92F /* launch_iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 271BD65816B629320063F92F /* launch_iphone@2x.png */; };
+		271BD65B16B629320063F92F /* launch_iphone-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 271BD65A16B629320063F92F /* launch_iphone-568h@2x.png */; };
+		271BD66716B629320063F92F /* icon_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 271BD66616B629320063F92F /* icon_ipad.png */; };
+		271BD66916B629320063F92F /* icon_ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 271BD66816B629320063F92F /* icon_ipad@2x.png */; };
+		271BD66B16B629320063F92F /* icon_ipad_spotlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 271BD66A16B629320063F92F /* icon_ipad_spotlight.png */; };
+		271BD66D16B629320063F92F /* icon_ipad_spotlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 271BD66C16B629320063F92F /* icon_ipad_spotlight@2x.png */; };
+		271BD66F16B629320063F92F /* launch_ipad-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 271BD66E16B629320063F92F /* launch_ipad-Portrait.png */; };
+		271BD67116B629320063F92F /* launch_ipad-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 271BD67016B629320063F92F /* launch_ipad-Landscape.png */; };
+		271BD67316B629320063F92F /* launch_ipad-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 271BD67216B629320063F92F /* launch_ipad-Portrait@2x.png */; };
+		271BD67516B629320063F92F /* launch_ipad-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 271BD67416B629320063F92F /* launch_ipad-Landscape@2x.png */; };
+		27415C3617185DA90068A50D /* FDTwitterMentionsTimelineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27415C3517185DA90068A50D /* FDTwitterMentionsTimelineController.m */; };
+		274DCB8B170F4F3D00725BEF /* FDTweetListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 274DCB8A170F4F3D00725BEF /* FDTweetListController.m */; };
+		27A1567B16B71C6600972459 /* libFDTwitterKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27AC451716B6349C0043321A /* libFDTwitterKit.a */; };
+		27B8555B17130C1200FBCC9D /* FDTwitterActionListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B8555A17130C1200FBCC9D /* FDTwitterActionListController.m */; };
+		27B855621713167B00FBCC9D /* FDTwitterActionListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B855611713167B00FBCC9D /* FDTwitterActionListView.xib */; };
+		27B855651713191200FBCC9D /* FDTwitterLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B855641713191100FBCC9D /* FDTwitterLoginController.m */; };
+		27B85570171343C800FBCC9D /* FDTwitterHomeTimelineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B8556F171343C700FBCC9D /* FDTwitterHomeTimelineController.m */; };
+		27B8557217134FFE00FBCC9D /* FDTweetListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B8557117134FFE00FBCC9D /* FDTweetListView.xib */; };
+		27BF427A17285E2800ED477D /* FDTwitterListListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BF427917285E2700ED477D /* FDTwitterListListController.m */; };
+		27BF427D17285E7B00ED477D /* FDTwitterOwnedListsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BF427C17285E7B00ED477D /* FDTwitterOwnedListsController.m */; };
+		27BF427F172860E500ED477D /* FDTwitterListListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27BF427E172860E500ED477D /* FDTwitterListListView.xib */; };
+		27BF428E1728634200ED477D /* FDTwitterSubscribedListsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BF428D1728634100ED477D /* FDTwitterSubscribedListsController.m */; };
+		27BF42911728701000ED477D /* FDSearchTweetsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BF42901728700E00ED477D /* FDSearchTweetsController.m */; };
+		27BF42931728704700ED477D /* FDSearchTweetsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27BF42921728704700ED477D /* FDSearchTweetsView.xib */; };
+		27BF42AF1729875000ED477D /* FDTwitterListTimelineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BF42AE1729874F00ED477D /* FDTwitterListTimelineController.m */; };
+		27CBCEB717276E6700DCC526 /* FDTwitterFriendListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CBCEB617276E6700DCC526 /* FDTwitterFriendListController.m */; };
+		27D03826170E1CC400DDD919 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D03823170E1C0E00DDD919 /* Social.framework */; };
+		27D0382A170E20BA00DDD919 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D03829170E20B900DDD919 /* Accounts.framework */; };
+		27D4A1B716C947EC000056A6 /* FDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D4A1B616C947EC000056A6 /* FDCollectionViewCell.m */; };
+		27D4A1BF16C94F93000056A6 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D4A1BE16C94F93000056A6 /* UIView+Layout.m */; };
+		27E335911718A83F0089D406 /* FDTwitterFavouritesTimelineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E335901718A83F0089D406 /* FDTwitterFavouritesTimelineController.m */; };
+		27E335941718A8970089D406 /* FDTwitterRetweetsTimelineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E335931718A8970089D406 /* FDTwitterRetweetsTimelineController.m */; };
+		27E33609171C3B990089D406 /* FDTwitterUserListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E33608171C3B990089D406 /* FDTwitterUserListController.m */; };
+		27E3360B171C3BA80089D406 /* FDTwitterUserListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27E3360A171C3BA80089D406 /* FDTwitterUserListView.xib */; };
+		27E33634171E44DF0089D406 /* FDTwitterFollowerListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E33633171E44DF0089D406 /* FDTwitterFollowerListController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27A1567816B71C6200972459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27AC450F16B6349C0043321A /* FDTwitterKit Static Library.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 27AC44EC16B633700043321A;
+			remoteInfo = FDTwitterKit;
+		};
+		27AC451616B6349C0043321A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27AC450F16B6349C0043321A /* FDTwitterKit Static Library.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27AC44ED16B633700043321A;
+			remoteInfo = FDTwitterKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		270B83DD16CAE9F500A31268 /* FDTwitterLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FDTwitterLoginView.xib; sourceTree = "<group>"; };
+		271BD62016B629320063F92F /* FDTwitterKit iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FDTwitterKit iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		271BD62416B629320063F92F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		271BD62616B629320063F92F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		271BD62816B629320063F92F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		271BD62A16B629320063F92F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		271BD62E16B629320063F92F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		271BD62F16B629320063F92F /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		271BD63016B629320063F92F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		271BD63216B629320063F92F /* Entitlements.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Entitlements.entitlements; sourceTree = "<group>"; };
+		271BD63516B629320063F92F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		271BD63616B629320063F92F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		271BD63916B629320063F92F /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		271BD63C16B629320063F92F /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		271BD63E16B629320063F92F /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
+		271BD64E16B629320063F92F /* icon_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_iphone.png; sourceTree = "<group>"; };
+		271BD65016B629320063F92F /* icon_iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_iphone@2x.png"; sourceTree = "<group>"; };
+		271BD65216B629320063F92F /* icon_iphone_spotlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_iphone_spotlight.png; sourceTree = "<group>"; };
+		271BD65416B629320063F92F /* icon_iphone_spotlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_iphone_spotlight@2x.png"; sourceTree = "<group>"; };
+		271BD65616B629320063F92F /* launch_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch_iphone.png; sourceTree = "<group>"; };
+		271BD65816B629320063F92F /* launch_iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch_iphone@2x.png"; sourceTree = "<group>"; };
+		271BD65A16B629320063F92F /* launch_iphone-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch_iphone-568h@2x.png"; sourceTree = "<group>"; };
+		271BD66616B629320063F92F /* icon_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ipad.png; sourceTree = "<group>"; };
+		271BD66816B629320063F92F /* icon_ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_ipad@2x.png"; sourceTree = "<group>"; };
+		271BD66A16B629320063F92F /* icon_ipad_spotlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ipad_spotlight.png; sourceTree = "<group>"; };
+		271BD66C16B629320063F92F /* icon_ipad_spotlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_ipad_spotlight@2x.png"; sourceTree = "<group>"; };
+		271BD66E16B629320063F92F /* launch_ipad-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch_ipad-Portrait.png"; sourceTree = "<group>"; };
+		271BD67016B629320063F92F /* launch_ipad-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch_ipad-Landscape.png"; sourceTree = "<group>"; };
+		271BD67216B629320063F92F /* launch_ipad-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch_ipad-Portrait@2x.png"; sourceTree = "<group>"; };
+		271BD67416B629320063F92F /* launch_ipad-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch_ipad-Landscape@2x.png"; sourceTree = "<group>"; };
+		27415C3417185DA90068A50D /* FDTwitterMentionsTimelineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTwitterMentionsTimelineController.h; sourceTree = "<group>"; };
+		27415C3517185DA90068A50D /* FDTwitterMentionsTimelineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTwitterMentionsTimelineController.m; sourceTree = "<group>"; };
+		274DCB89170F4F3D00725BEF /* FDTweetListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTweetListController.h; sourceTree = "<group>"; };
+		274DCB8A170F4F3D00725BEF /* FDTweetListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTweetListController.m; sourceTree = "<group>"; };
+		27AC450F16B6349C0043321A /* FDTwitterKit Static Library.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "FDTwitterKit Static Library.xcodeproj"; path = "../../Static Library Project/FDTwitterKit Static Library.xcodeproj"; sourceTree = "<group>"; };
+		27B8555917130C1100FBCC9D /* FDTwitterActionListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTwitterActionListController.h; sourceTree = "<group>"; };
+		27B8555A17130C1200FBCC9D /* FDTwitterActionListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTwitterActionListController.m; sourceTree = "<group>"; };
+		27B855611713167B00FBCC9D /* FDTwitterActionListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FDTwitterActionListView.xib; sourceTree = "<group>"; };
+		27B855631713191100FBCC9D /* FDTwitterLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTwitterLoginController.h; sourceTree = "<group>"; };
+		27B855641713191100FBCC9D /* FDTwitterLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTwitterLoginController.m; sourceTree = "<group>"; };
+		27B8556E171343C700FBCC9D /* FDTwitterHomeTimelineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTwitterHomeTimelineController.h; sourceTree = "<group>"; };
+		27B8556F171343C700FBCC9D /* FDTwitterHomeTimelineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTwitterHomeTimelineController.m; sourceTree = "<group>"; };
+		27B8557117134FFE00FBCC9D /* FDTweetListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FDTweetListView.xib; sourceTree = "<group>"; };
+		27BF427817285E2700ED477D /* FDTwitterListListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTwitterListListController.h; sourceTree = "<group>"; };
+		27BF427917285E2700ED477D /* FDTwitterListListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTwitterListListController.m; sourceTree = "<group>"; };
+		27BF427B17285E7A00ED477D /* FDTwitterOwnedListsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTwitterOwnedListsController.h; sourceTree = "<group>"; };
+		27BF427C17285E7B00ED477D /* FDTwitterOwnedListsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTwitterOwnedListsController.m; sourceTree = "<group>"; };
+		27BF427E172860E500ED477D /* FDTwitterListListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FDTwitterListListView.xib; sourceTree = "<group>"; };
+		27BF428C1728634000ED477D /* FDTwitterSubscribedListsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTwitterSubscribedListsController.h; sourceTree = "<group>"; };
+		27BF428D1728634100ED477D /* FDTwitterSubscribedListsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTwitterSubscribedListsController.m; sourceTree = "<group>"; };
+		27BF428F1728700D00ED477D /* FDSearchTweetsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDSearchTweetsController.h; sourceTree = "<group>"; };
+		27BF42901728700E00ED477D /* FDSearchTweetsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDSearchTweetsController.m; sourceTree = "<group>"; };
+		27BF42921728704700ED477D /* FDSearchTweetsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FDSearchTweetsView.xib; sourceTree = "<group>"; };
+		27BF42AD1729874F00ED477D /* FDTwitterListTimelineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTwitterListTimelineController.h; sourceTree = "<group>"; };
+		27BF42AE1729874F00ED477D /* FDTwitterListTimelineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTwitterListTimelineController.m; sourceTree = "<group>"; };
+		27CBCEB517276E6700DCC526 /* FDTwitterFriendListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTwitterFriendListController.h; sourceTree = "<group>"; };
+		27CBCEB617276E6700DCC526 /* FDTwitterFriendListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTwitterFriendListController.m; sourceTree = "<group>"; };
+		27D03823170E1C0E00DDD919 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		27D03829170E20B900DDD919 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		27D4A1B516C947EC000056A6 /* FDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCollectionViewCell.h; sourceTree = "<group>"; };
+		27D4A1B616C947EC000056A6 /* FDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCollectionViewCell.m; sourceTree = "<group>"; };
+		27D4A1BD16C94F93000056A6 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		27D4A1BE16C94F93000056A6 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		27E3358F1718A83F0089D406 /* FDTwitterFavouritesTimelineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTwitterFavouritesTimelineController.h; sourceTree = "<group>"; };
+		27E335901718A83F0089D406 /* FDTwitterFavouritesTimelineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTwitterFavouritesTimelineController.m; sourceTree = "<group>"; };
+		27E335921718A8970089D406 /* FDTwitterRetweetsTimelineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTwitterRetweetsTimelineController.h; sourceTree = "<group>"; };
+		27E335931718A8970089D406 /* FDTwitterRetweetsTimelineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTwitterRetweetsTimelineController.m; sourceTree = "<group>"; };
+		27E33607171C3B980089D406 /* FDTwitterUserListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTwitterUserListController.h; sourceTree = "<group>"; };
+		27E33608171C3B990089D406 /* FDTwitterUserListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTwitterUserListController.m; sourceTree = "<group>"; };
+		27E3360A171C3BA80089D406 /* FDTwitterUserListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FDTwitterUserListView.xib; sourceTree = "<group>"; };
+		27E33632171E44DF0089D406 /* FDTwitterFollowerListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTwitterFollowerListController.h; sourceTree = "<group>"; };
+		27E33633171E44DF0089D406 /* FDTwitterFollowerListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTwitterFollowerListController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		271BD61D16B629320063F92F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271BD62516B629320063F92F /* Foundation.framework in Frameworks */,
+				271BD62716B629320063F92F /* CoreGraphics.framework in Frameworks */,
+				271BD62916B629320063F92F /* QuartzCore.framework in Frameworks */,
+				271BD62B16B629320063F92F /* UIKit.framework in Frameworks */,
+				27D0382A170E20BA00DDD919 /* Accounts.framework in Frameworks */,
+				27D03826170E1CC400DDD919 /* Social.framework in Frameworks */,
+				27A1567B16B71C6600972459 /* libFDTwitterKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		271BD61516B629320063F92F = {
+			isa = PBXGroup;
+			children = (
+				271BD62C16B629320063F92F /* FDTwitterKit iOS Example */,
+				271BD62316B629320063F92F /* Frameworks */,
+				271BD62116B629320063F92F /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 1;
+		};
+		271BD62116B629320063F92F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				271BD62016B629320063F92F /* FDTwitterKit iOS Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		271BD62316B629320063F92F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				271BD62416B629320063F92F /* Foundation.framework */,
+				271BD62616B629320063F92F /* CoreGraphics.framework */,
+				271BD62816B629320063F92F /* QuartzCore.framework */,
+				271BD62A16B629320063F92F /* UIKit.framework */,
+				27D03829170E20B900DDD919 /* Accounts.framework */,
+				27D03823170E1C0E00DDD919 /* Social.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		271BD62C16B629320063F92F /* FDTwitterKit iOS Example */ = {
+			isa = PBXGroup;
+			children = (
+				271BD66316B629320063F92F /* iPad */,
+				271BD64B16B629320063F92F /* iPhone */,
+				271BD63416B629320063F92F /* Shared */,
+				271BD63316B629320063F92F /* Vendors */,
+				271BD62D16B629320063F92F /* Supporting Files */,
+			);
+			path = "FDTwitterKit iOS Example";
+			sourceTree = "<group>";
+		};
+		271BD62D16B629320063F92F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				271BD62E16B629320063F92F /* Info.plist */,
+				271BD62F16B629320063F92F /* Prefix.pch */,
+				271BD63016B629320063F92F /* main.m */,
+				271BD63216B629320063F92F /* Entitlements.entitlements */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		271BD63316B629320063F92F /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				27AC450F16B6349C0043321A /* FDTwitterKit Static Library.xcodeproj */,
+			);
+			name = Vendors;
+			sourceTree = "<group>";
+		};
+		271BD63416B629320063F92F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				271BD64416B629320063F92F /* Classes */,
+				271BD64116B629320063F92F /* Views */,
+				271BD63816B629320063F92F /* Resources */,
+				271BD63516B629320063F92F /* AppDelegate.h */,
+				271BD63616B629320063F92F /* AppDelegate.m */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		271BD63816B629320063F92F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				271BD63B16B629320063F92F /* Images */,
+				271BD63916B629320063F92F /* InfoPlist.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		271BD63B16B629320063F92F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				271BD64016B629320063F92F /* Common */,
+				271BD63C16B629320063F92F /* iTunesArtwork */,
+				271BD63E16B629320063F92F /* iTunesArtwork@2x */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		271BD64016B629320063F92F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		271BD64116B629320063F92F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				271BD64316B629320063F92F /* Controllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		271BD64316B629320063F92F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				27B855611713167B00FBCC9D /* FDTwitterActionListView.xib */,
+				270B83DD16CAE9F500A31268 /* FDTwitterLoginView.xib */,
+				27B8557117134FFE00FBCC9D /* FDTweetListView.xib */,
+				27E3360A171C3BA80089D406 /* FDTwitterUserListView.xib */,
+				27BF427E172860E500ED477D /* FDTwitterListListView.xib */,
+				27BF42921728704700ED477D /* FDSearchTweetsView.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		271BD64416B629320063F92F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				271BD64916B629320063F92F /* Controllers */,
+				271BD64816B629320063F92F /* Controls */,
+				271BD64716B629320063F92F /* Categories */,
+				271BD64616B629320063F92F /* Managers */,
+				271BD64516B629320063F92F /* Services */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		271BD64516B629320063F92F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		271BD64616B629320063F92F /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		271BD64716B629320063F92F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				27D4A1BD16C94F93000056A6 /* UIView+Layout.h */,
+				27D4A1BE16C94F93000056A6 /* UIView+Layout.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		271BD64816B629320063F92F /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				27D4A1B516C947EC000056A6 /* FDCollectionViewCell.h */,
+				27D4A1B616C947EC000056A6 /* FDCollectionViewCell.m */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		271BD64916B629320063F92F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				27B8555917130C1100FBCC9D /* FDTwitterActionListController.h */,
+				27B8555A17130C1200FBCC9D /* FDTwitterActionListController.m */,
+				27B855631713191100FBCC9D /* FDTwitterLoginController.h */,
+				27B855641713191100FBCC9D /* FDTwitterLoginController.m */,
+				274DCB89170F4F3D00725BEF /* FDTweetListController.h */,
+				274DCB8A170F4F3D00725BEF /* FDTweetListController.m */,
+				27E33607171C3B980089D406 /* FDTwitterUserListController.h */,
+				27E33608171C3B990089D406 /* FDTwitterUserListController.m */,
+				27BF427817285E2700ED477D /* FDTwitterListListController.h */,
+				27BF427917285E2700ED477D /* FDTwitterListListController.m */,
+				27B8556E171343C700FBCC9D /* FDTwitterHomeTimelineController.h */,
+				27B8556F171343C700FBCC9D /* FDTwitterHomeTimelineController.m */,
+				27415C3417185DA90068A50D /* FDTwitterMentionsTimelineController.h */,
+				27415C3517185DA90068A50D /* FDTwitterMentionsTimelineController.m */,
+				27E3358F1718A83F0089D406 /* FDTwitterFavouritesTimelineController.h */,
+				27E335901718A83F0089D406 /* FDTwitterFavouritesTimelineController.m */,
+				27E335921718A8970089D406 /* FDTwitterRetweetsTimelineController.h */,
+				27E335931718A8970089D406 /* FDTwitterRetweetsTimelineController.m */,
+				27CBCEB517276E6700DCC526 /* FDTwitterFriendListController.h */,
+				27CBCEB617276E6700DCC526 /* FDTwitterFriendListController.m */,
+				27E33632171E44DF0089D406 /* FDTwitterFollowerListController.h */,
+				27E33633171E44DF0089D406 /* FDTwitterFollowerListController.m */,
+				27BF427B17285E7A00ED477D /* FDTwitterOwnedListsController.h */,
+				27BF427C17285E7B00ED477D /* FDTwitterOwnedListsController.m */,
+				27BF428C1728634000ED477D /* FDTwitterSubscribedListsController.h */,
+				27BF428D1728634100ED477D /* FDTwitterSubscribedListsController.m */,
+				27BF42AD1729874F00ED477D /* FDTwitterListTimelineController.h */,
+				27BF42AE1729874F00ED477D /* FDTwitterListTimelineController.m */,
+				27BF428F1728700D00ED477D /* FDSearchTweetsController.h */,
+				27BF42901728700E00ED477D /* FDSearchTweetsController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		271BD64B16B629320063F92F /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				271BD64C16B629320063F92F /* Resources */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		271BD64C16B629320063F92F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				271BD64D16B629320063F92F /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		271BD64D16B629320063F92F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				271BD64E16B629320063F92F /* icon_iphone.png */,
+				271BD65016B629320063F92F /* icon_iphone@2x.png */,
+				271BD65216B629320063F92F /* icon_iphone_spotlight.png */,
+				271BD65416B629320063F92F /* icon_iphone_spotlight@2x.png */,
+				271BD65616B629320063F92F /* launch_iphone.png */,
+				271BD65816B629320063F92F /* launch_iphone@2x.png */,
+				271BD65A16B629320063F92F /* launch_iphone-568h@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		271BD66316B629320063F92F /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				271BD66416B629320063F92F /* Resources */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		271BD66416B629320063F92F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				271BD66516B629320063F92F /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		271BD66516B629320063F92F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				271BD66616B629320063F92F /* icon_ipad.png */,
+				271BD66816B629320063F92F /* icon_ipad@2x.png */,
+				271BD66A16B629320063F92F /* icon_ipad_spotlight.png */,
+				271BD66C16B629320063F92F /* icon_ipad_spotlight@2x.png */,
+				271BD66E16B629320063F92F /* launch_ipad-Portrait.png */,
+				271BD67016B629320063F92F /* launch_ipad-Landscape.png */,
+				271BD67216B629320063F92F /* launch_ipad-Portrait@2x.png */,
+				271BD67416B629320063F92F /* launch_ipad-Landscape@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		27AC451016B6349C0043321A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27AC451716B6349C0043321A /* libFDTwitterKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		271BD61F16B629320063F92F /* FDTwitterKit iOS Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 271BD68016B629330063F92F /* Build configuration list for PBXNativeTarget "FDTwitterKit iOS Example" */;
+			buildPhases = (
+				271BD61C16B629320063F92F /* Sources */,
+				271BD61D16B629320063F92F /* Frameworks */,
+				271BD61E16B629320063F92F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27A1567916B71C6200972459 /* PBXTargetDependency */,
+			);
+			name = "FDTwitterKit iOS Example";
+			productName = "FDTwitterKit iOS Example";
+			productReference = 271BD62016B629320063F92F /* FDTwitterKit iOS Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		271BD61716B629320063F92F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FD;
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 271BD61A16B629320063F92F /* Build configuration list for PBXProject "FDTwitterKit iOS Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 271BD61516B629320063F92F;
+			productRefGroup = 271BD62116B629320063F92F /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 27AC451016B6349C0043321A /* Products */;
+					ProjectRef = 27AC450F16B6349C0043321A /* FDTwitterKit Static Library.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				271BD61F16B629320063F92F /* FDTwitterKit iOS Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		27AC451716B6349C0043321A /* libFDTwitterKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFDTwitterKit.a;
+			remoteRef = 27AC451616B6349C0043321A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		271BD61E16B629320063F92F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271BD63A16B629320063F92F /* InfoPlist.strings in Resources */,
+				271BD63D16B629320063F92F /* iTunesArtwork in Resources */,
+				271BD63F16B629320063F92F /* iTunesArtwork@2x in Resources */,
+				271BD64F16B629320063F92F /* icon_iphone.png in Resources */,
+				271BD65116B629320063F92F /* icon_iphone@2x.png in Resources */,
+				271BD65316B629320063F92F /* icon_iphone_spotlight.png in Resources */,
+				271BD65516B629320063F92F /* icon_iphone_spotlight@2x.png in Resources */,
+				271BD65716B629320063F92F /* launch_iphone.png in Resources */,
+				271BD65916B629320063F92F /* launch_iphone@2x.png in Resources */,
+				271BD65B16B629320063F92F /* launch_iphone-568h@2x.png in Resources */,
+				271BD66716B629320063F92F /* icon_ipad.png in Resources */,
+				271BD66916B629320063F92F /* icon_ipad@2x.png in Resources */,
+				271BD66B16B629320063F92F /* icon_ipad_spotlight.png in Resources */,
+				271BD66D16B629320063F92F /* icon_ipad_spotlight@2x.png in Resources */,
+				271BD66F16B629320063F92F /* launch_ipad-Portrait.png in Resources */,
+				271BD67116B629320063F92F /* launch_ipad-Landscape.png in Resources */,
+				271BD67316B629320063F92F /* launch_ipad-Portrait@2x.png in Resources */,
+				271BD67516B629320063F92F /* launch_ipad-Landscape@2x.png in Resources */,
+				270B83DE16CAE9F500A31268 /* FDTwitterLoginView.xib in Resources */,
+				27B855621713167B00FBCC9D /* FDTwitterActionListView.xib in Resources */,
+				27B8557217134FFE00FBCC9D /* FDTweetListView.xib in Resources */,
+				27E3360B171C3BA80089D406 /* FDTwitterUserListView.xib in Resources */,
+				27BF427F172860E500ED477D /* FDTwitterListListView.xib in Resources */,
+				27BF42931728704700ED477D /* FDSearchTweetsView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		271BD61C16B629320063F92F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271BD63116B629320063F92F /* main.m in Sources */,
+				271BD63716B629320063F92F /* AppDelegate.m in Sources */,
+				27D4A1B716C947EC000056A6 /* FDCollectionViewCell.m in Sources */,
+				27D4A1BF16C94F93000056A6 /* UIView+Layout.m in Sources */,
+				274DCB8B170F4F3D00725BEF /* FDTweetListController.m in Sources */,
+				27B8555B17130C1200FBCC9D /* FDTwitterActionListController.m in Sources */,
+				27B855651713191200FBCC9D /* FDTwitterLoginController.m in Sources */,
+				27B85570171343C800FBCC9D /* FDTwitterHomeTimelineController.m in Sources */,
+				27415C3617185DA90068A50D /* FDTwitterMentionsTimelineController.m in Sources */,
+				27E335911718A83F0089D406 /* FDTwitterFavouritesTimelineController.m in Sources */,
+				27E335941718A8970089D406 /* FDTwitterRetweetsTimelineController.m in Sources */,
+				27E33609171C3B990089D406 /* FDTwitterUserListController.m in Sources */,
+				27E33634171E44DF0089D406 /* FDTwitterFollowerListController.m in Sources */,
+				27CBCEB717276E6700DCC526 /* FDTwitterFriendListController.m in Sources */,
+				27BF427A17285E2800ED477D /* FDTwitterListListController.m in Sources */,
+				27BF427D17285E7B00ED477D /* FDTwitterOwnedListsController.m in Sources */,
+				27BF428E1728634200ED477D /* FDTwitterSubscribedListsController.m in Sources */,
+				27BF42911728701000ED477D /* FDSearchTweetsController.m in Sources */,
+				27BF42AF1729875000ED477D /* FDTwitterListTimelineController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27A1567916B71C6200972459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FDTwitterKit;
+			targetProxy = 27A1567816B71C6200972459 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		271BD67D16B629330063F92F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = "FDTwitterKit iOS Example/Supporting Files/Entitlements.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-all_load";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		271BD67E16B629330063F92F /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = "FDTwitterKit iOS Example/Supporting Files/Entitlements.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = AD_HOC;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-all_load";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad Hoc";
+		};
+		271BD67F16B629330063F92F /* App Store */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = "FDTwitterKit iOS Example/Supporting Files/Entitlements.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = APP_STORE;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-all_load";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "App Store";
+		};
+		271BD68116B629330063F92F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FDTwitterKit iOS Example/Supporting Files/Prefix.pch";
+				INFOPLIST_FILE = "FDTwitterKit iOS Example/Supporting Files/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		271BD68216B629330063F92F /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FDTwitterKit iOS Example/Supporting Files/Prefix.pch";
+				INFOPLIST_FILE = "FDTwitterKit iOS Example/Supporting Files/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad Hoc";
+		};
+		271BD68316B629330063F92F /* App Store */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FDTwitterKit iOS Example/Supporting Files/Prefix.pch";
+				INFOPLIST_FILE = "FDTwitterKit iOS Example/Supporting Files/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "App Store";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		271BD61A16B629320063F92F /* Build configuration list for PBXProject "FDTwitterKit iOS Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				271BD67D16B629330063F92F /* Debug */,
+				271BD67E16B629330063F92F /* Ad Hoc */,
+				271BD67F16B629330063F92F /* App Store */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		271BD68016B629330063F92F /* Build configuration list for PBXNativeTarget "FDTwitterKit iOS Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				271BD68116B629330063F92F /* Debug */,
+				271BD68216B629330063F92F /* Ad Hoc */,
+				271BD68316B629330063F92F /* App Store */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 271BD61716B629320063F92F /* Project object */;
+}

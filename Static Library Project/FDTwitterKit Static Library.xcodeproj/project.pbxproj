@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27415C37171862010068A50D /* NSUserDefaults+Accessing.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 274DCB93170F60C000725BEF /* NSUserDefaults+Accessing.h */; };
+		274DCB8D170F5E7800725BEF /* NSDictionary+Accessing.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27A1568E16B7241F00972459 /* NSDictionary+Accessing.h */; };
+		274DCB8E170F5E7800725BEF /* FDTwitterAPIClient.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27A1567D16B71CD500972459 /* FDTwitterAPIClient.h */; };
+		274DCB8F170F5E7800725BEF /* FDTwitterUser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27A1568716B71F6700972459 /* FDTwitterUser.h */; };
+		274DCB90170F5E7800725BEF /* FDTweet.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27A1568216B71F6700972459 /* FDTweet.h */; };
+		274DCB91170F5E7800725BEF /* FDTwitterURL.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27A1568516B71F6700972459 /* FDTwitterURL.h */; };
+		274DCB92170F5E7800725BEF /* FDTwitterList.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27A1568D16B71F7900972459 /* FDTwitterList.h */; };
+		274DCB95170F60C100725BEF /* NSUserDefaults+Accessing.m in Sources */ = {isa = PBXBuildFile; fileRef = 274DCB94170F60C100725BEF /* NSUserDefaults+Accessing.m */; };
+		27A1566A16B71A9A00972459 /* FDHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A1565516B71A9A00972459 /* FDHTTPRequest.m */; };
+		27A1566B16B71A9A00972459 /* FDRequestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A1565816B71A9A00972459 /* FDRequestClient.m */; };
+		27A1566C16B71A9A00972459 /* FDURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A1565C16B71A9A00972459 /* FDURLConnection.m */; };
+		27A1566D16B71A9A00972459 /* FDURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A1565E16B71A9A00972459 /* FDURLConnectionOperation.m */; };
+		27A1566E16B71A9A00972459 /* FDURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A1566016B71A9A00972459 /* FDURLRequest.m */; };
+		27A1566F16B71A9A00972459 /* FDURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A1566316B71A9A00972459 /* FDURLResponse.m */; };
+		27A1567016B71A9A00972459 /* NSDictionary+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A1566516B71A9A00972459 /* NSDictionary+URLEncode.m */; };
+		27A1567116B71A9A00972459 /* NSObject+PerformBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A1566716B71A9A00972459 /* NSObject+PerformBlock.m */; };
+		27A1567216B71A9A00972459 /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A1566916B71A9A00972459 /* NSString+URLEncode.m */; };
+		27A1567416B71AFE00972459 /* FDTwitterKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27AC44FF16B633D90043321A /* FDTwitterKit.h */; };
+		27A1567F16B71CD500972459 /* FDTwitterAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A1567E16B71CD500972459 /* FDTwitterAPIClient.m */; };
+		27A1568916B71F6700972459 /* FDTweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A1568316B71F6700972459 /* FDTweet.m */; };
+		27A1568A16B71F6700972459 /* FDTwitterList.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A1568416B71F6700972459 /* FDTwitterList.m */; };
+		27A1568B16B71F6700972459 /* FDTwitterURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A1568616B71F6700972459 /* FDTwitterURL.m */; };
+		27A1568C16B71F6700972459 /* FDTwitterUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A1568816B71F6700972459 /* FDTwitterUser.m */; };
+		27A1569016B7241F00972459 /* NSDictionary+Accessing.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A1568F16B7241F00972459 /* NSDictionary+Accessing.m */; };
+		27A1569316B727D400972459 /* FDTwitterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A1569216B727D300972459 /* FDTwitterManager.m */; };
+		27AC44F116B633700043321A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27AC44F016B633700043321A /* Foundation.framework */; };
+		27AC44F816B633700043321A /* FDTwitterKit_Static_Library.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AC44F716B633700043321A /* FDTwitterKit_Static_Library.m */; };
+		27AC450116B633F10043321A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27AC450016B633F10043321A /* UIKit.framework */; };
+		27AC450316B633F40043321A /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27AC450216B633F40043321A /* Social.framework */; };
+		27D03828170E1F0800DDD919 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D03827170E1F0800DDD919 /* Accounts.framework */; };
+		27D4A1C316C95093000056A6 /* FDNullOrEmpty.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27A1565616B71A9A00972459 /* FDNullOrEmpty.h */; };
+		27D4A1C416C95093000056A6 /* NSDictionary+URLEncode.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27A1566416B71A9A00972459 /* NSDictionary+URLEncode.h */; };
+		27D4A1C516C95093000056A6 /* NSObject+PerformBlock.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27A1566616B71A9A00972459 /* NSObject+PerformBlock.h */; };
+		27D4A1C616C95093000056A6 /* NSString+URLEncode.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27A1566816B71A9A00972459 /* NSString+URLEncode.h */; };
+		27D4A1C716C95093000056A6 /* FDURLRequest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27A1565F16B71A9A00972459 /* FDURLRequest.h */; };
+		27D4A1C816C95093000056A6 /* FDHTTPRequest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27A1565416B71A9A00972459 /* FDHTTPRequest.h */; };
+		27D4A1C916C95093000056A6 /* FDURLResponse.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27A1566216B71A9A00972459 /* FDURLResponse.h */; };
+		27D4A1CA16C95093000056A6 /* FDURLResponse+Private.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27A1566116B71A9A00972459 /* FDURLResponse+Private.h */; };
+		27D4A1CB16C95093000056A6 /* FDURLConnection.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27A1565B16B71A9A00972459 /* FDURLConnection.h */; };
+		27D4A1CC16C95093000056A6 /* FDURLConnectionOperation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27A1565D16B71A9A00972459 /* FDURLConnectionOperation.h */; };
+		27D4A1CD16C95093000056A6 /* FDRequestClient.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27A1565716B71A9A00972459 /* FDRequestClient.h */; };
+		27D4A1CE16C95093000056A6 /* FDRequestClientCache.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27A1565916B71A9A00972459 /* FDRequestClientCache.h */; };
+		27D4A1CF16C95093000056A6 /* FDRequestClientDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27A1565A16B71A9A00972459 /* FDRequestClientDelegate.h */; };
+		27D4A1D016C950BE000056A6 /* FDTwitterManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27A1569116B727D300972459 /* FDTwitterManager.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		27AC44EB16B633700043321A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				27415C37171862010068A50D /* NSUserDefaults+Accessing.h in CopyFiles */,
+				274DCB8D170F5E7800725BEF /* NSDictionary+Accessing.h in CopyFiles */,
+				274DCB8E170F5E7800725BEF /* FDTwitterAPIClient.h in CopyFiles */,
+				274DCB8F170F5E7800725BEF /* FDTwitterUser.h in CopyFiles */,
+				274DCB90170F5E7800725BEF /* FDTweet.h in CopyFiles */,
+				274DCB91170F5E7800725BEF /* FDTwitterURL.h in CopyFiles */,
+				274DCB92170F5E7800725BEF /* FDTwitterList.h in CopyFiles */,
+				27D4A1D016C950BE000056A6 /* FDTwitterManager.h in CopyFiles */,
+				27D4A1C316C95093000056A6 /* FDNullOrEmpty.h in CopyFiles */,
+				27D4A1C416C95093000056A6 /* NSDictionary+URLEncode.h in CopyFiles */,
+				27D4A1C516C95093000056A6 /* NSObject+PerformBlock.h in CopyFiles */,
+				27D4A1C616C95093000056A6 /* NSString+URLEncode.h in CopyFiles */,
+				27D4A1C716C95093000056A6 /* FDURLRequest.h in CopyFiles */,
+				27D4A1C816C95093000056A6 /* FDHTTPRequest.h in CopyFiles */,
+				27D4A1C916C95093000056A6 /* FDURLResponse.h in CopyFiles */,
+				27D4A1CA16C95093000056A6 /* FDURLResponse+Private.h in CopyFiles */,
+				27D4A1CB16C95093000056A6 /* FDURLConnection.h in CopyFiles */,
+				27D4A1CC16C95093000056A6 /* FDURLConnectionOperation.h in CopyFiles */,
+				27D4A1CD16C95093000056A6 /* FDRequestClient.h in CopyFiles */,
+				27D4A1CE16C95093000056A6 /* FDRequestClientCache.h in CopyFiles */,
+				27D4A1CF16C95093000056A6 /* FDRequestClientDelegate.h in CopyFiles */,
+				27A1567416B71AFE00972459 /* FDTwitterKit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		274DCB93170F60C000725BEF /* NSUserDefaults+Accessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+Accessing.h"; sourceTree = "<group>"; };
+		274DCB94170F60C100725BEF /* NSUserDefaults+Accessing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+Accessing.m"; sourceTree = "<group>"; };
+		27A1565416B71A9A00972459 /* FDHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDHTTPRequest.h; sourceTree = "<group>"; };
+		27A1565516B71A9A00972459 /* FDHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDHTTPRequest.m; sourceTree = "<group>"; };
+		27A1565616B71A9A00972459 /* FDNullOrEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDNullOrEmpty.h; sourceTree = "<group>"; };
+		27A1565716B71A9A00972459 /* FDRequestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDRequestClient.h; sourceTree = "<group>"; };
+		27A1565816B71A9A00972459 /* FDRequestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDRequestClient.m; sourceTree = "<group>"; };
+		27A1565916B71A9A00972459 /* FDRequestClientCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDRequestClientCache.h; sourceTree = "<group>"; };
+		27A1565A16B71A9A00972459 /* FDRequestClientDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDRequestClientDelegate.h; sourceTree = "<group>"; };
+		27A1565B16B71A9A00972459 /* FDURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDURLConnection.h; sourceTree = "<group>"; };
+		27A1565C16B71A9A00972459 /* FDURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDURLConnection.m; sourceTree = "<group>"; };
+		27A1565D16B71A9A00972459 /* FDURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDURLConnectionOperation.h; sourceTree = "<group>"; };
+		27A1565E16B71A9A00972459 /* FDURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDURLConnectionOperation.m; sourceTree = "<group>"; };
+		27A1565F16B71A9A00972459 /* FDURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDURLRequest.h; sourceTree = "<group>"; };
+		27A1566016B71A9A00972459 /* FDURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDURLRequest.m; sourceTree = "<group>"; };
+		27A1566116B71A9A00972459 /* FDURLResponse+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FDURLResponse+Private.h"; sourceTree = "<group>"; };
+		27A1566216B71A9A00972459 /* FDURLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDURLResponse.h; sourceTree = "<group>"; };
+		27A1566316B71A9A00972459 /* FDURLResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDURLResponse.m; sourceTree = "<group>"; };
+		27A1566416B71A9A00972459 /* NSDictionary+URLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+URLEncode.h"; sourceTree = "<group>"; };
+		27A1566516B71A9A00972459 /* NSDictionary+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+URLEncode.m"; sourceTree = "<group>"; };
+		27A1566616B71A9A00972459 /* NSObject+PerformBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PerformBlock.h"; sourceTree = "<group>"; };
+		27A1566716B71A9A00972459 /* NSObject+PerformBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PerformBlock.m"; sourceTree = "<group>"; };
+		27A1566816B71A9A00972459 /* NSString+URLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncode.h"; sourceTree = "<group>"; };
+		27A1566916B71A9A00972459 /* NSString+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncode.m"; sourceTree = "<group>"; };
+		27A1567D16B71CD500972459 /* FDTwitterAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTwitterAPIClient.h; sourceTree = "<group>"; };
+		27A1567E16B71CD500972459 /* FDTwitterAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTwitterAPIClient.m; sourceTree = "<group>"; };
+		27A1568216B71F6700972459 /* FDTweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTweet.h; sourceTree = "<group>"; };
+		27A1568316B71F6700972459 /* FDTweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTweet.m; sourceTree = "<group>"; };
+		27A1568416B71F6700972459 /* FDTwitterList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTwitterList.m; sourceTree = "<group>"; };
+		27A1568516B71F6700972459 /* FDTwitterURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTwitterURL.h; sourceTree = "<group>"; };
+		27A1568616B71F6700972459 /* FDTwitterURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTwitterURL.m; sourceTree = "<group>"; };
+		27A1568716B71F6700972459 /* FDTwitterUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTwitterUser.h; sourceTree = "<group>"; };
+		27A1568816B71F6700972459 /* FDTwitterUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTwitterUser.m; sourceTree = "<group>"; };
+		27A1568D16B71F7900972459 /* FDTwitterList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDTwitterList.h; sourceTree = "<group>"; };
+		27A1568E16B7241F00972459 /* NSDictionary+Accessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Accessing.h"; sourceTree = "<group>"; };
+		27A1568F16B7241F00972459 /* NSDictionary+Accessing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Accessing.m"; sourceTree = "<group>"; };
+		27A1569116B727D300972459 /* FDTwitterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTwitterManager.h; sourceTree = "<group>"; };
+		27A1569216B727D300972459 /* FDTwitterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTwitterManager.m; sourceTree = "<group>"; };
+		27AC44ED16B633700043321A /* libFDTwitterKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFDTwitterKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		27AC44F016B633700043321A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		27AC44F416B633700043321A /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		27AC44F516B633700043321A /* FDTwitterKit_Static_Library.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDTwitterKit_Static_Library.h; sourceTree = "<group>"; };
+		27AC44F716B633700043321A /* FDTwitterKit_Static_Library.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDTwitterKit_Static_Library.m; sourceTree = "<group>"; };
+		27AC44FF16B633D90043321A /* FDTwitterKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTwitterKit.h; sourceTree = "<group>"; };
+		27AC450016B633F10043321A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		27AC450216B633F40043321A /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		27D03827170E1F0800DDD919 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27AC44EA16B633700043321A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AC44F116B633700043321A /* Foundation.framework in Frameworks */,
+				27AC450116B633F10043321A /* UIKit.framework in Frameworks */,
+				27D03828170E1F0800DDD919 /* Accounts.framework in Frameworks */,
+				27AC450316B633F40043321A /* Social.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27A1565216B71A8800972459 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				27A1565316B71A9A00972459 /* FDRequestClient */,
+			);
+			name = Vendors;
+			sourceTree = "<group>";
+		};
+		27A1565316B71A9A00972459 /* FDRequestClient */ = {
+			isa = PBXGroup;
+			children = (
+				27A1565616B71A9A00972459 /* FDNullOrEmpty.h */,
+				27A1566416B71A9A00972459 /* NSDictionary+URLEncode.h */,
+				27A1566516B71A9A00972459 /* NSDictionary+URLEncode.m */,
+				27A1566616B71A9A00972459 /* NSObject+PerformBlock.h */,
+				27A1566716B71A9A00972459 /* NSObject+PerformBlock.m */,
+				27A1566816B71A9A00972459 /* NSString+URLEncode.h */,
+				27A1566916B71A9A00972459 /* NSString+URLEncode.m */,
+				27A1565F16B71A9A00972459 /* FDURLRequest.h */,
+				27A1566016B71A9A00972459 /* FDURLRequest.m */,
+				27A1565416B71A9A00972459 /* FDHTTPRequest.h */,
+				27A1565516B71A9A00972459 /* FDHTTPRequest.m */,
+				27A1566216B71A9A00972459 /* FDURLResponse.h */,
+				27A1566116B71A9A00972459 /* FDURLResponse+Private.h */,
+				27A1566316B71A9A00972459 /* FDURLResponse.m */,
+				27A1565B16B71A9A00972459 /* FDURLConnection.h */,
+				27A1565C16B71A9A00972459 /* FDURLConnection.m */,
+				27A1565D16B71A9A00972459 /* FDURLConnectionOperation.h */,
+				27A1565E16B71A9A00972459 /* FDURLConnectionOperation.m */,
+				27A1565716B71A9A00972459 /* FDRequestClient.h */,
+				27A1565816B71A9A00972459 /* FDRequestClient.m */,
+				27A1565916B71A9A00972459 /* FDRequestClientCache.h */,
+				27A1565A16B71A9A00972459 /* FDRequestClientDelegate.h */,
+			);
+			name = FDRequestClient;
+			path = ../../Vendors/FDRequestClient/FDRequestClient;
+			sourceTree = "<group>";
+		};
+		27AC44E216B633700043321A = {
+			isa = PBXGroup;
+			children = (
+				27AC44F216B633700043321A /* FDTwitterKit Static Library */,
+				27AC44EF16B633700043321A /* Frameworks */,
+				27AC44EE16B633700043321A /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 1;
+		};
+		27AC44EE16B633700043321A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27AC44ED16B633700043321A /* libFDTwitterKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27AC44EF16B633700043321A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27AC44F016B633700043321A /* Foundation.framework */,
+				27AC450016B633F10043321A /* UIKit.framework */,
+				27D03827170E1F0800DDD919 /* Accounts.framework */,
+				27AC450216B633F40043321A /* Social.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27AC44F216B633700043321A /* FDTwitterKit Static Library */ = {
+			isa = PBXGroup;
+			children = (
+				27AC44FF16B633D90043321A /* FDTwitterKit.h */,
+				27AC44FE16B633A80043321A /* FDTwitterKit */,
+				27A1565216B71A8800972459 /* Vendors */,
+				27AC44F516B633700043321A /* FDTwitterKit_Static_Library.h */,
+				27AC44F716B633700043321A /* FDTwitterKit_Static_Library.m */,
+				27AC44F316B633700043321A /* Supporting Files */,
+			);
+			path = "FDTwitterKit Static Library";
+			sourceTree = "<group>";
+		};
+		27AC44F316B633700043321A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27AC44F416B633700043321A /* Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27AC44FE16B633A80043321A /* FDTwitterKit */ = {
+			isa = PBXGroup;
+			children = (
+				27A1568E16B7241F00972459 /* NSDictionary+Accessing.h */,
+				27A1568F16B7241F00972459 /* NSDictionary+Accessing.m */,
+				274DCB93170F60C000725BEF /* NSUserDefaults+Accessing.h */,
+				274DCB94170F60C100725BEF /* NSUserDefaults+Accessing.m */,
+				27A1569116B727D300972459 /* FDTwitterManager.h */,
+				27A1569216B727D300972459 /* FDTwitterManager.m */,
+				27A1567D16B71CD500972459 /* FDTwitterAPIClient.h */,
+				27A1567E16B71CD500972459 /* FDTwitterAPIClient.m */,
+				27A1568716B71F6700972459 /* FDTwitterUser.h */,
+				27A1568816B71F6700972459 /* FDTwitterUser.m */,
+				27A1568216B71F6700972459 /* FDTweet.h */,
+				27A1568316B71F6700972459 /* FDTweet.m */,
+				27A1568516B71F6700972459 /* FDTwitterURL.h */,
+				27A1568616B71F6700972459 /* FDTwitterURL.m */,
+				27A1568D16B71F7900972459 /* FDTwitterList.h */,
+				27A1568416B71F6700972459 /* FDTwitterList.m */,
+			);
+			name = FDTwitterKit;
+			path = ../../FDTwitterKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27AC44EC16B633700043321A /* FDTwitterKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27AC44FB16B633700043321A /* Build configuration list for PBXNativeTarget "FDTwitterKit" */;
+			buildPhases = (
+				27AC44E916B633700043321A /* Sources */,
+				27AC44EA16B633700043321A /* Frameworks */,
+				27AC44EB16B633700043321A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDTwitterKit;
+			productName = "FDTwitterKit Static Library";
+			productReference = 27AC44ED16B633700043321A /* libFDTwitterKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27AC44E416B633700043321A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "1414 Degrees";
+			};
+			buildConfigurationList = 27AC44E716B633700043321A /* Build configuration list for PBXProject "FDTwitterKit Static Library" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 27AC44E216B633700043321A;
+			productRefGroup = 27AC44EE16B633700043321A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27AC44EC16B633700043321A /* FDTwitterKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27AC44E916B633700043321A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AC44F816B633700043321A /* FDTwitterKit_Static_Library.m in Sources */,
+				27A1566A16B71A9A00972459 /* FDHTTPRequest.m in Sources */,
+				27A1566B16B71A9A00972459 /* FDRequestClient.m in Sources */,
+				27A1566C16B71A9A00972459 /* FDURLConnection.m in Sources */,
+				27A1566D16B71A9A00972459 /* FDURLConnectionOperation.m in Sources */,
+				27A1566E16B71A9A00972459 /* FDURLRequest.m in Sources */,
+				27A1566F16B71A9A00972459 /* FDURLResponse.m in Sources */,
+				27A1567016B71A9A00972459 /* NSDictionary+URLEncode.m in Sources */,
+				27A1567116B71A9A00972459 /* NSObject+PerformBlock.m in Sources */,
+				27A1567216B71A9A00972459 /* NSString+URLEncode.m in Sources */,
+				27A1567F16B71CD500972459 /* FDTwitterAPIClient.m in Sources */,
+				27A1568916B71F6700972459 /* FDTweet.m in Sources */,
+				27A1568A16B71F6700972459 /* FDTwitterList.m in Sources */,
+				27A1568B16B71F6700972459 /* FDTwitterURL.m in Sources */,
+				27A1568C16B71F6700972459 /* FDTwitterUser.m in Sources */,
+				27A1569016B7241F00972459 /* NSDictionary+Accessing.m in Sources */,
+				27A1569316B727D400972459 /* FDTwitterManager.m in Sources */,
+				274DCB95170F60C100725BEF /* NSUserDefaults+Accessing.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		27AC44F916B633700043321A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		27AC44FA16B633700043321A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27AC44FC16B633700043321A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FDTwitterKit Static Library/Supporting Files/Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		27AC44FD16B633700043321A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FDTwitterKit Static Library/Supporting Files/Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27AC44E716B633700043321A /* Build configuration list for PBXProject "FDTwitterKit Static Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27AC44F916B633700043321A /* Debug */,
+				27AC44FA16B633700043321A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27AC44FB16B633700043321A /* Build configuration list for PBXNativeTarget "FDTwitterKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27AC44FC16B633700043321A /* Debug */,
+				27AC44FD16B633700043321A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27AC44E416B633700043321A /* Project object */;
+}

@@ -173,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				271BD62C16B629320063F92F /* FDTwitterKit iOS Example */,
+				271BD63316B629320063F92F /* Vendors */,
 				271BD62316B629320063F92F /* Frameworks */,
 				271BD62116B629320063F92F /* Products */,
 			);
@@ -206,7 +207,6 @@
 				271BD66316B629320063F92F /* iPad */,
 				271BD64B16B629320063F92F /* iPhone */,
 				271BD63416B629320063F92F /* Shared */,
-				271BD63316B629320063F92F /* Vendors */,
 				271BD62D16B629320063F92F /* Supporting Files */,
 			);
 			path = "FDTwitterKit iOS Example";
@@ -229,6 +229,7 @@
 				27AC450F16B6349C0043321A /* FDTwitterKit Static Library.xcodeproj */,
 			);
 			name = Vendors;
+			path = "FDTwitterKit iOS Example";
 			sourceTree = "<group>";
 		};
 		271BD63416B629320063F92F /* Shared */ = {

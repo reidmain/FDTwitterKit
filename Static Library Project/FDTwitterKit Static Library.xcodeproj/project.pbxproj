@@ -33,7 +33,6 @@
 		27A1569016B7241F00972459 /* NSDictionary+Accessing.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A1568F16B7241F00972459 /* NSDictionary+Accessing.m */; };
 		27A1569316B727D400972459 /* FDTwitterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A1569216B727D300972459 /* FDTwitterManager.m */; };
 		27AC44F116B633700043321A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27AC44F016B633700043321A /* Foundation.framework */; };
-		27AC44F816B633700043321A /* FDTwitterKit_Static_Library.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AC44F716B633700043321A /* FDTwitterKit_Static_Library.m */; };
 		27AC450116B633F10043321A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27AC450016B633F10043321A /* UIKit.framework */; };
 		27AC450316B633F40043321A /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27AC450216B633F40043321A /* Social.framework */; };
 		27D03828170E1F0800DDD919 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D03827170E1F0800DDD919 /* Accounts.framework */; };
@@ -129,8 +128,6 @@
 		27AC44ED16B633700043321A /* libFDTwitterKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFDTwitterKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		27AC44F016B633700043321A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		27AC44F416B633700043321A /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
-		27AC44F516B633700043321A /* FDTwitterKit_Static_Library.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDTwitterKit_Static_Library.h; sourceTree = "<group>"; };
-		27AC44F716B633700043321A /* FDTwitterKit_Static_Library.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDTwitterKit_Static_Library.m; sourceTree = "<group>"; };
 		27AC44FF16B633D90043321A /* FDTwitterKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTwitterKit.h; sourceTree = "<group>"; };
 		27AC450016B633F10043321A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		27AC450216B633F40043321A /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
@@ -225,8 +222,6 @@
 				27AC44FF16B633D90043321A /* FDTwitterKit.h */,
 				27AC44FE16B633A80043321A /* FDTwitterKit */,
 				27A1565216B71A8800972459 /* Vendors */,
-				27AC44F516B633700043321A /* FDTwitterKit_Static_Library.h */,
-				27AC44F716B633700043321A /* FDTwitterKit_Static_Library.m */,
 				27AC44F316B633700043321A /* Supporting Files */,
 			);
 			path = "FDTwitterKit Static Library";
@@ -315,7 +310,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27AC44F816B633700043321A /* FDTwitterKit_Static_Library.m in Sources */,
 				27A1566A16B71A9A00972459 /* FDHTTPRequest.m in Sources */,
 				27A1566B16B71A9A00972459 /* FDRequestClient.m in Sources */,
 				27A1566C16B71A9A00972459 /* FDURLConnection.m in Sources */,

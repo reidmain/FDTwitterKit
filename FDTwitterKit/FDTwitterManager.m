@@ -152,9 +152,7 @@ static FDTwitterManager *_sharedInstance;
 	// Otherwise, request access to the user's Twitter accounts.
 	else
 	{
-		ACAccountType *twitterAccountType = [_twitterAccountStore accountTypeWithAccountTypeIdentifier: ACAccountTypeIdentifierTwitter];
-		
-		[_twitterAccountStore requestAccessToAccountsWithType: twitterAccountType 
+		[_twitterAccountStore requestAccessToAccountsWithType: _twitterAccountType 
 			options: nil 
 			completion: ^(BOOL granted, NSError *error)
 				{
